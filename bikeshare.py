@@ -95,7 +95,7 @@ def time_stats(df):
 
     print('Most Popular Start Hour:', popular_hour)
 
-
+#this function prints stattion stats
 def station_stats(df):
     """Displays statistics on the most popular stations and trip."""
 
