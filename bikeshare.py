@@ -6,7 +6,7 @@ import pandas as pd
 CITY_DATA = { 'chicago': 'chicago.csv',
               'new york city': 'new_york_city.csv', 'new york': 'new_york_city.csv', 'nyc': 'new_york_city.csv',
               'washington': 'washington.csv' }
-
+#This function loads the data from a csv
 def load_data(city, month, day):
     """
     Loads data for the specified city and filters by month and day if applicable.
@@ -49,7 +49,7 @@ def load_data(city, month, day):
         # filter by day of week to create the new dataframe
         df = df[df['day_of_week'] == weekday_num]
     return df
-
+#this function returns filters
 def get_filters():
     """
     Asks user to specify a city, month, and day to analyze.
