@@ -76,6 +76,7 @@ def get_filters():
     print('-'*40)
     return city, month, day
 
+#this function shows stats on time of travel
 def time_stats(df):
     """Displays statistics on the most frequent times of travel."""
 
@@ -94,7 +95,7 @@ def time_stats(df):
 
     print('Most Popular Start Hour:', popular_hour)
 
-
+#this function prints stattion stats
 def station_stats(df):
     """Displays statistics on the most popular stations and trip."""
 
