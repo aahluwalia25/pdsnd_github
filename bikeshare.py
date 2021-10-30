@@ -49,7 +49,7 @@ def load_data(city, month, day):
         # filter by day of week to create the new dataframe
         df = df[df['day_of_week'] == weekday_num]
     return df
-
+#this function returns filters
 def get_filters():
     """
     Asks user to specify a city, month, and day to analyze.
