@@ -8,8 +8,7 @@ Anoop Github Project
 
 ### Description
 Describe what your project is about and what it does
-TRY 1 2 and 3 merged manually
-Bikeshare Data and python scripts
+Bikeshare python scripts that determine bikesharing stats
 
 ### Files used
 bikeshare.py and csv data files
